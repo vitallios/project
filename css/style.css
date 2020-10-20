@@ -1,22 +1,26 @@
+
 body{
 	margin: 0;
 	padding: 0;
 	display: block;
 	color: #fff;
 	background: #E5E5E5;
-	
+	font-family: 'Roboto', sans-serif;
 }
-a,p{
+a,p { 
 	text-decoration: none;
 	color: #fff;
 	font-size: 14px;
 }
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Yeseva One', cursive;
+}
+
 
 .header{
 	width: 100%;
 	height: 100vh;
 }
-
 .wrapper{
 	width: 100%;
 	height: auto;
@@ -28,4 +32,19 @@ a,p{
 }
 .container{
 	position: relative;
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-template-rows: minmax(100px), minmax(500px), minmax(200px);
+}
+
+.header_menu{
+	grid-column: 1/6;
+	grid-row: 1/2;
+}
+
+.menu_left{
+	grid-column: 1/3;
+}
+.menu_right{
+	grid-column: 3/6;
 }
