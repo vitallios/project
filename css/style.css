@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+	display: block;
+	color: #fff;
+	background: #E5E5E5;
+	
+}
+a,p{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+.header{
+	width: 100%;
+	height: 100vh;
+}
+
+.wrapper{
+	width: 100%;
+	height: auto;
+}
+.bg{
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+}
+.container{
+	position: relative;
+}
